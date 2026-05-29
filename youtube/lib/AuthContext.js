@@ -18,6 +18,7 @@ const UserContext = createContext({
     ok: false,
     code: "auth/not-initialized",
     domain: undefined,
+    message: undefined,
   }),
 });
 
